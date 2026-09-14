@@ -1,8 +1,68 @@
 -- Sample DML for E-commerce Platform
 INSERT INTO Customers (FirstName, LastName, Email, Phone) VALUES
 ('John', 'Doe', 'john.doe@example.com', '1234567890'),
-('Jane', 'Smith', 'jane.smith@example.com', '0987654321');
+('Jane', 'Smith', 'jane.smith@example.com', '0987654321'),
+('Alice', 'Johnson', 'alice.j@example.com', '5551234567'),
+('Bob', 'Brown', 'bob.b@example.com', '5552345678'),
+('Charlie', 'Davis', 'charlie.d@example.com', '5553456789'),
+('Diana', 'Miller', 'diana.m@example.com', '5554567890'),
+('Evan', 'Wilson', 'evan.w@example.com', '5555678901'),
+('Fiona', 'Moore', 'fiona.m@example.com', '5556789012'),
+('George', 'Taylor', 'george.t@example.com', '5557890123'),
+('Hannah', 'Anderson', 'hannah.a@example.com', '5558901234'),
+('Ian', 'Thomas', 'ian.t@example.com', '5559012345'),
+('Julia', 'Jackson', 'julia.j@example.com', '5550123456');
 
 INSERT INTO Products (ProductName, Description, Price, StockQuantity) VALUES
 ('Laptop', 'High-performance gaming laptop', 999.99, 10),
-('Smartphone', 'Latest model smartphone', 699.99, 20);
+('Smartphone', 'Latest model smartphone', 699.99, 20),
+('Headphones', 'Noise-canceling headphones', 149.99, 50),
+('Smartwatch', 'Fitness and health tracker', 199.99, 30),
+('Tablet', '10-inch display tablet', 349.99, 15),
+('Keyboard', 'Mechanical gaming keyboard', 89.99, 40),
+('Mouse', 'Wireless ergonomic mouse', 49.99, 60),
+('Monitor', '27-inch 4K monitor', 299.99, 12),
+('Speaker', 'Bluetooth portable speaker', 79.99, 25),
+('Camera', 'Digital mirrorless camera', 599.99, 8),
+('Printer', 'All-in-one inkjet printer', 129.99, 18),
+('Backpack', 'Waterproof laptop backpack', 39.99, 100);
+
+INSERT INTO Orders (CustomerID, TotalAmount, Status) VALUES
+(1, 1149.98, 'Shipped'),
+(2, 699.99, 'Delivered'),
+(3, 349.99, 'Pending'),
+(4, 239.98, 'Shipped'),
+(5, 389.98, 'Processing'),
+(6, 79.99, 'Delivered'),
+(7, 599.99, 'Pending'),
+(8, 169.98, 'Shipped'),
+(9, 1349.98, 'Delivered'),
+(10, 89.99, 'Pending'),
+(11, 429.98, 'Processing'),
+(12, 39.99, 'Delivered'),
+(1, 149.99, 'Pending'),
+(2, 199.99, 'Shipped'),
+(3, 89.99, 'Delivered');
+
+INSERT INTO OrderItems (OrderID, ProductID, Quantity, UnitPrice) VALUES
+(1, 1, 1, 999.99),
+(1, 3, 1, 149.99),
+(2, 2, 1, 699.99),
+(3, 5, 1, 349.99),
+(4, 4, 1, 199.99),
+(4, 12, 1, 39.99),
+(5, 8, 1, 299.99),
+(5, 6, 1, 89.99),
+(6, 9, 1, 79.99),
+(7, 10, 1, 599.99),
+(8, 11, 1, 129.99),
+(8, 12, 1, 39.99),
+(9, 1, 1, 999.99),
+(9, 5, 1, 349.99),
+(10, 6, 1, 89.99),
+(11, 8, 1, 299.99),
+(11, 11, 1, 129.99),
+(12, 12, 1, 39.99),
+(13, 3, 1, 149.99),
+(14, 4, 1, 199.99),
+(15, 6, 1, 89.99);
