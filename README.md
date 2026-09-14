@@ -9,6 +9,8 @@ This project implements an e-commerce database platform including customer manag
 
 | Name | Responsibility |
 | --- | --- |
-| Nakka Kranthi | Database Architect & Developer |
-| Team Member 1 | Frontend Developer |
-| Team Member 2 | Backend Developer |
+| Nakka Kranthi (25B11AI606) | Database Architect & Developer |
+
+## Author Details
+- **Name:** Nakka Kranthi
+- **Roll Number:** 25B11AI606
