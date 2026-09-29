@@ -28,9 +28,9 @@ Smart-E-Commerce-Order-Management-System/
 | Name | Responsibility |
 | --- | --- |
 | Nakka Kranthi (25B11AI606) | Database Architect & Developer |
-| Avula Venkata Naveen | (25B11AI075) | Documentation, GitHub Repository |
-| N Phanindra | (25B11AI839) |  ER Daigram, relationships  |
-| G Kishore | (25B11AIA79) | Testing / PPT / Presentation |
+| Avula Venkata Naveen  (25B11AI075) | Documentation, GitHub Repository |
+| N Phanindra  (25B11AI839) |  ER Daigram, relationships  |
+| G Kishore  (25B11AIA79) | Testing / PPT / Presentation |
 ## Author Details
 - **Name:** Nakka Kranthi
 - **Roll Number:** 25B11AI606
